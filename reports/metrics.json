@@ -1,0 +1,37 @@
+{
+  "threshold": 0.5,
+  "best_model": "Random Forest",
+  "test_rows": 10000,
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.9643,
+      "precision": 0.3538175046554935,
+      "recall": 0.95,
+      "f1": 0.5156037991858887,
+      "roc_auc": 0.9944918367346939,
+      "pr_auc": 0.8866474623928517,
+      "confusion_matrix": {
+        "tn": 9453,
+        "fp": 347,
+        "fn": 10,
+        "tp": 190
+      },
+      "train_seconds": 0.07
+    },
+    "Random Forest": {
+      "accuracy": 0.9947,
+      "precision": 0.9152542372881356,
+      "recall": 0.81,
+      "f1": 0.8594164456233422,
+      "roc_auc": 0.9930854591836735,
+      "pr_auc": 0.9228604428238286,
+      "confusion_matrix": {
+        "tn": 9785,
+        "fp": 15,
+        "fn": 38,
+        "tp": 162
+      },
+      "train_seconds": 0.71
+    }
+  }
+}
